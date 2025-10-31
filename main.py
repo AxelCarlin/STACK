@@ -17,7 +17,7 @@ def main():
         print("=== ENTRENAMIENTO LOCAL DEL SISTEMA AVANZADO ===")
         
         # Usar la función train_pipeline que ya maneja todo
-        filepath = r"C:\Users\axelc\Downloads\STACK\dataset\Dataset.csv"
+        filepath = r"C:\Users\axelc\Downloads\STACK\Dataset.csv"
         ensemble, results = train_pipeline(filepath, nrows=5000)
         
         print("\n=== RESULTADOS ===")
